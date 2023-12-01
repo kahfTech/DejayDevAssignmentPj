@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text:#fff;
+}
+
+body {
+  background-image: linear-gradient(to right top, #052e37, #475b67, #848e98, #848e98, #848e98);
+  color: var(--text);
+  font-size: 18px;
+}
+
+.header {
+  display: flex;
+  justify-content: stretch;
+  gap: 850px;
+  margin: 0px 45px;
+  margin-top: 45px;
+
+}
+
+.company {
+  color: yellow;
+  font-weight: 200;
+  text-align: center;
+  font-size: 25px;
+  line-height: 1.2;
+}
+
+.company-span {
+  display: block;
+  font-size: 20PX;
+  color: rgba(255, 89, 0, 0.958);
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  gap: 110px;
+  color: aquamarine;
+}
+
+a {
+  color: var(--text);
+ text-decoration: none;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 35PX;
+}
+
+.page-picture {
+ width: 70dvh;
+ height: 70dvh ;
+ border: none;
+}
+
+.page-content {
+  padding-top: 240px;
+  text-align: center;
+  padding-left: 105PX;
+  font-size: 20px;
+}
+
+.paragraph {
+  padding-top: 3px;
+ color: rgb(255, 255, 0, 0.5);
+ font-size: 18px;
+}
+
+.page-content-text:hover {
+ font-size:42px;
+ cursor: pointer;
+}
+
+
+.card-links ul {
+  display: flex;
+ justify-content: center;
+  align-items:center;           
+  flex-direction: row;
+  gap: 30px; 
+  list-style-type: none;
+   }
+
+   .card-links li {
+    padding-top: 60px;
+    display: flex;
+    font-size: 45px;
+     }
+
+   .card-links a {
+    color: rgb(255, 255, 255, 0.3);
+    text-decoration: none;
+   }
+
+
